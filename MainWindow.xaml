@@ -1,0 +1,92 @@
+﻿<Window x:Class="Curs2_Manageri_Continut.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Curs2_Manageri_Continut"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="180" Width="266">
+
+   <!--    <Canvas Background="LightSteelBlue" >
+        <Button x:Name="btnOK"  Width="80" Content="OK" />
+        <Label x:Name="lblDetalii" Canvas.Left="17" Canvas.Top="14" Width="328" Height="27" FontSize="15" Content="Detalii persoana"/>
+        <Label x:Name="lblNume" Canvas.Left="17" Canvas.Top="60" Content="Nume"/>
+        <TextBox x:Name="txtNume" Canvas.Left="94" Canvas.Top="60" Width="193" Height="25"/>
+        <Label x:Name="lblPrenume" Canvas.Left="17" Canvas.Top="109" Content="Prenume"/>
+        <TextBox x:Name="txtPrenume" Canvas.Left="94" Canvas.Top="107" Width="193" Height="25"/>
+        <Label x:Name="lblStudii" Canvas.Left="17" Canvas.Top="155" Content="Studii"/>
+        <TextBox x:Name="txtStudii" Canvas.Left="94" Canvas.Top="153" Width="193" Height="25"/>
+    </Canvas>
+    -->
+    
+     <!--   <WrapPanel Background="LightSteelBlue">
+        <Label x:Name="lblInstructions" Width="328" Height="27" FontSize="15" Content="Detalii persoana"/>
+        <Label x:Name="lblNume"  Content="Nume"/>
+        <TextBox x:Name="txtNume"  Width="193" Height="25"/>
+        <Label x:Name="lblPrenume"  Content="Prenume"/>
+        <TextBox x:Name="txtPrenume"  Width="193" Height="25"/>
+        <Label x:Name="lblStudii"  Content="Studii"/>
+        <TextBox x:Name="txtStudii"  Width="193" Height="25"/>
+        <Button x:Name="btnOK"  Width="80" Content="OK"/>
+    </WrapPanel>
+  -->
+         <!--     <StackPanel Background="LightSteelBlue" Orientation="Horizontal">
+        <Label x:Name="lblInstructions" Width="328" Height="27" FontSize="15" Content="Detalii persoana"/>
+        <Label x:Name="lblNume"  Content="Nume"/>
+        <TextBox x:Name="txtNume"  Width="193" Height="25"/>
+        <Label x:Name="lblPrenume"  Content="Prenume"/>
+        <TextBox x:Name="txtPrenume"  Width="193" Height="25"/>
+        <Label x:Name="lblStudii"  Content="Studii"/>
+        <TextBox x:Name="txtStudii"  Width="193" Height="25"/>
+        <Button x:Name="btnOK"  Width="80" Content="OK"/>
+    </StackPanel>
+   
+    -->
+     <!--  <Grid ShowGridLines ="True" Background ="LightSteelBlue">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Label x:Name="lblInstruction" Grid.Column ="0" Grid.Row ="0" FontSize="15" Content="Detalii persoana"/>
+        <Button x:Name="btnOK" Height ="30" Grid.Column ="0" Grid.Row ="0" Content="OK"/>
+        <Label x:Name="lblNum" Grid.Column ="1" Grid.Row ="0" Content="Nume"/>
+        <TextBox x:Name="txtNum" Grid.Column ="1" Grid.Row ="0" Width="193" Height="25"/>
+        <Label x:Name="lblPrenum" Grid.Column ="0" Grid.Row ="1" Content="Prenume"/>
+        <TextBox x:Name="txtPrenume" Width="193" Height="25" Grid.Column ="0" Grid.Row ="1" />
+
+        <Label x:Name="lblStud" Grid.Column ="1" Grid.Row ="1" Content="Studii"/>
+        <TextBox x:Name="txtStudii" Grid.Column ="1" Grid.Row ="1" Width="193" Height="25"/>
+        <Rectangle Fill ="LightGreen" Grid.Column ="1" Grid.Row ="1" />
+
+        <GridSplitter Grid.Column ="0" Width ="5" Grid.RowSpan="2"/>
+    </Grid>
+   
+-->
+   <!-- <DockPanel LastChildFill ="True" Background="AliceBlue">
+        <Label DockPanel.Dock ="Top" Name="lblInstruction" FontSize="15" Content="Detalii persoana"/>
+        <Label DockPanel.Dock ="Left" Name="lblNu" Content="Nume"/>
+        <Label DockPanel.Dock ="Right" Name="lblPrenu" Content="Prenume"/>
+        <Label DockPanel.Dock ="Bottom" Name="lblSt" Content="Studii"/>
+        <Button DockPanel.Dock ="Bottom" Name="btnOK" Content="OK"/>
+    </DockPanel>
+-->
+   <ScrollViewer>
+        <StackPanel>
+            <Button Content ="First" Background = "Green" Height ="40"/>
+            <Button Content ="Second" Background = "Red" Height ="40"/>
+            <Button Content ="Third" Background = "Pink" Height ="40"/>
+            <Button Content ="Fourth" Background = "Yellow" Height ="40"/>
+            <Button Content ="Fifth" Background = "Blue" Height ="40"/>
+        </StackPanel>
+    </ScrollViewer>
+    
+
+
+</Window>
